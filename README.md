@@ -9,15 +9,15 @@ Android, iOS and Desktop are configured. This app has simple producer and consum
 ### Connection screen
 
 <p align="middle">
-    <img src="docs/screenshots/android-connect.png" height="150">
-    <img src="docs/screenshots/iphone-connect.png" height="150">
+    <img src="docs/screenshots/android-connect.png" height="250">
+    <img src="docs/screenshots/iphone-connect.png" height="250">
 </p>
 
 ### Send screen
 
 <p align="middle">
-    <img src="docs/screenshots/android-send.png" height="150">
-    <img src="docs/screenshots/iphone-send.png" height="150">
+    <img src="docs/screenshots/android-send.png" height="250">
+    <img src="docs/screenshots/iphone-send.png" height="250">
 </p>
 
 ### Received screen
