@@ -9,7 +9,7 @@ Android, iOS and Desktop are configured. This app has simple producer and consum
 ### Connection screen
 
 <img src="docs/screenshots/android-connect.png" width="300">
-img src="docs/screenshots/iphone-connect.png" width="300">
+<img src="docs/screenshots/iphone-connect.png" width="300">
 
 ### Send screen
 
