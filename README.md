@@ -1,14 +1,33 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
+# kotlin-kafka-client demo app
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+This is a Compose Multiplatform app that demonstrates how to use the [kotlin-kafka-client](https://github.com/vooft/kotlin-kafka-client) library to produce and consume messages from a Kafka topic.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+Android, iOS and Desktop are configured. This app has simple producer and consumer that exchange messages via shared Kafka broker.
 
+# Screenshots
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+### Connection screen
+
+<p align="middle">
+    <img src="docs/screenshots/android-connect.png" height="250">
+    <img src="docs/screenshots/iphone-connect.png" height="250">
+</p>
+
+### Send screen
+
+<p align="middle">
+    <img src="docs/screenshots/android-send.png" height="250">
+    <img src="docs/screenshots/iphone-send.png" height="250">
+</p>
+
+### Received screen
+
+<p align="middle">
+    <img src="docs/screenshots/android-received-self.png" height="250">
+    <img src="docs/screenshots/android-received-both.png" height="250">
+    <img src="docs/screenshots/iphone-received-android.png" height="250">
+    <img src="docs/screenshots/iphone-received-both.png" height="250">
+</p>
+
+#### And one for the desktop
+<img src="docs/screenshots/desktop-received.png" width="600">
