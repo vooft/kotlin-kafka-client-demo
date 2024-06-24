@@ -20,12 +20,11 @@ kotlin {
     jvm("desktop")
     
     listOf(
-        iosX64(),
         iosArm64(),
         iosSimulatorArm64()
     ).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "ComposeApp"
+            baseName = "KotlinKafkaDemo"
             isStatic = true
         }
     }
@@ -36,15 +35,20 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+            implementation("org.slf4j:slf4j-simple:2.0.13")
         }
+
         commonMain.dependencies {
             implementation(compose.runtime)
             implementation(compose.foundation)
-            implementation(compose.material)
+            implementation(compose.material3)
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
+
+            implementation(libs.kotlin.kafka.client)
         }
+
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
         }
