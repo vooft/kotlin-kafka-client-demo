@@ -9,7 +9,7 @@ kotlin = "2.0.0"
 
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
-kotlin-kafka-client = { module = "io.github.vooft:kotlin-kafka-client-core", version = "0.4.4" }
+kotlin-kafka-client = { module = "io.github.vooft:kotlin-kafka-client-core", version = "0.5.0" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
