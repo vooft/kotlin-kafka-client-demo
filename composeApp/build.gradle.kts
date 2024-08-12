@@ -35,7 +35,7 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
-            implementation("org.slf4j:slf4j-simple:2.0.13")
+            implementation("org.slf4j:slf4j-simple:2.0.16")
         }
 
         commonMain.dependencies {
